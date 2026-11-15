@@ -1,0 +1,14 @@
+{
+  "name": "@nexus-zkvm/indexer",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Aave V3 Arbitrum One borrower indexer for Nexus-ZKVM",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.unit.test.ts",
+    "test:integration": "node --test test/*.integration.test.ts"
+  },
+  "dependencies": {
+    "viem": "2.57.19"
+  }
+}

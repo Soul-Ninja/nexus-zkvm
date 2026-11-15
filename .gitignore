@@ -107,10 +107,7 @@ artifacts/
 
 # 12. Private planning source (kept local only)
 Project-Plan.txt
-# 13. Project-revealing files kept local until after Phase 6 (owner, 2026-11-16)
+# 13. Planning documents kept local until after Phase 6 (owner, 2026-11-16; clarified: present code is public)
 docs/
 AGENTS.md
 CLAUDE.md
-contracts/test/
-apps/
-contracts/src/
