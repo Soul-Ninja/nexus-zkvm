@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+test = "test"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.28" # PENDING-VERIFICATION (D-007)
+evm_version = "cancun" # PENDING-VERIFICATION (D-007)
+ffi = false
+fs_permissions = []
+
+[rpc_endpoints]
+arbitrum = "${ARBITRUM_RPC_URL}"

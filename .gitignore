@@ -1,0 +1,114 @@
+
+# ==========================================
+# NEXUS-ZKVM — GITIGNORE
+# ==========================================
+
+# 1. AI Coding Agents (personal skills)
+.claude/
+.agents/
+.gemini/
+
+# 2. Secrets & Environment Variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+secrets/
+credentials/
+wallets/
+
+# 3. Solidity / Foundry
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+contracts/coverage/
+contracts/coverage.json
+contracts/lcov.info
+
+# Foundry files if used at repository root
+/cache/
+/out/
+/broadcast/
+
+# 4. Node.js / TypeScript / Next.js
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.turbo/
+.vercel/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 5. Python / Machine Learning
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+mlruns/
+wandb/
+*.onnx
+*.pkl
+*.joblib
+
+# 6. Rust / ZK Development
+target/
+zk/target/
+*.profraw
+*.profdata
+
+# 7. Databases / Local State
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# 8. Large Generated Data / Backtests
+data/raw/
+data/cache/
+backtest/results/
+backtest/cache/
+reports/generated/
+
+# 9. Operating System / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# 10. Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 11. Local Test & Deployment Artifacts
+coverage/
+test-results/
+playwright-report/
+artifacts/
+
+# 12. Private planning source (kept local only)
+Project-Plan.txt
+# 13. Project-revealing files kept local until after Phase 6 (owner, 2026-11-16)
+docs/
+AGENTS.md
+CLAUDE.md
+contracts/test/
