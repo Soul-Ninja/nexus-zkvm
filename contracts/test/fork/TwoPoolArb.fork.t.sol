@@ -308,6 +308,7 @@ contract TwoPoolArbForkTest is Test, P3ArbFixture {
 
     /// @notice F1: Fuzz test across trade size and minProfit parameters (32 runs)
     /// @dev Amended §7a: fuzz amountIn in [1e6, 10_000e6]
+    /// forge-config: default.fuzz.runs = 32
     function testFuzz_F1_Arbitrage(uint256 amountIn, uint256 minProfit) public {
         _initTx();
 

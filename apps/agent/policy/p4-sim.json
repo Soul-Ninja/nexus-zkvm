@@ -1,0 +1,29 @@
+{
+  "policy_version": "p4-sim-1",
+  "chain_id": 42161,
+  "execution_mode": "simulate",
+  "allowed_strategies": [
+    "arbitrage"
+  ],
+  "allowed_assets": [
+    "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+  ],
+  "allowed_targets": [
+    "0xC6962004f452bE9203591991D15f6b388e09E8D0",
+    "0xf3Eb87C1F6020982173C908E7eB31aA66c1f0296"
+  ],
+  "max_notional_per_trade": "20000000000",
+  "size_ladder": [
+    "1000000000",
+    "2500000000",
+    "5000000000",
+    "10000000000",
+    "20000000000"
+  ],
+  "min_gap_bps": 10,
+  "min_net_profit_raw": "1000000",
+  "max_gas_cost_wei": "1000000000000000",
+  "max_state_age_blocks": 240,
+  "max_attempts_per_opportunity": 1
+}

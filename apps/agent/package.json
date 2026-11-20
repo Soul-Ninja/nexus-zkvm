@@ -1,0 +1,14 @@
+{
+  "name": "@nexus-zkvm/agent",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Simulate-only decision pipeline for Nexus-ZKVM",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.unit.test.ts",
+    "test:integration": "node --test test/*.integration.test.ts"
+  },
+  "dependencies": {
+    "viem": "2.57.19"
+  }
+}
